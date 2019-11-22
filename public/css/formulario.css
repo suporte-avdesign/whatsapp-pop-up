@@ -1,0 +1,148 @@
+.formContato {
+    width: 100%
+}
+
+.saudacao {
+    width: 100%;
+    padding-left: 10px;
+    color: #292929;
+    font-size: 13px;
+    font-family: arial, helvetica, sans-serif;
+    background-color: #F7FFF0;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    resize: none;
+    margin-top: 3px
+}
+
+.nome {
+    width: 90%;
+    padding-left: 10px;
+    color: #292929;
+    font-size: 14px;
+    background-color: #F7FFF0;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 2px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc
+}
+
+.tel {
+    width: 90%;
+    padding-left: 10px;
+    color: #292929;
+    font-size: 14px;
+    background-color: #F7FFF0;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 2px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc
+}
+
+.email {
+    width: 99%;
+    padding-left: 10px;
+    color: #292929;
+    font-size: 14px;
+    background-color: #F7FFF0;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #999
+}
+
+.setor {
+    width: 99%;
+    padding-left: 10px;
+    color: #292929;
+    font-size: 14px;
+    background-color: #F7FFF0;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #999
+}
+
+.mensagem {
+    width: 80%;
+    padding-left: 10px;
+    color: #292929;
+    font-size: 13px;
+    font-family: arial, helvetica, sans-serif;
+    background-color: #F7FFF0;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #999;
+    resize: none
+}
+
+.botaoContato {
+    height: 25px;
+    width: 90%;
+    background: #003A3B;
+    margin-left: -5px;
+    margin-right: 0;
+    padding-top: 5px;
+    font: Verdana, Geneva, sans-serif;
+    color: #FFF;
+    border: inherit
+}
+
+.botaoContato:hover {
+    opacity: 1;
+    transition: 1s
+}
+
+div [id=ass] {
+    height: 50px;
+    outline: 0;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-top: -15px;
+    font-size: 11px
+}
+
+.btn-toggle {
+    display: none
+}
+
+@media screen and (max-width: 280px) {
+    #MsgTop {
+        display: none
+    }
+}
